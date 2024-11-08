@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes neon {
+  0%, 100% {
+    text-shadow: 0 0 2px #000000, 0 0 2px #000000;
+  }
+  50% {
+    text-shadow: 0 0 2px #000000, 0 0 2px #000000;
+  }
+}
+
+.neon-text {
+  animation: neon 1.5s ease-in-out infinite alternate;
+}
